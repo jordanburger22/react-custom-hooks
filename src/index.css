@@ -1,0 +1,125 @@
+/* General Styles */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Buttons */
+button {
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2e2e2e;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+  margin-bottom: 1vh;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.navbar>h1 {
+  width: 50%;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+}
+
+.navbar>div {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.navbar>div>button {
+  margin-left: 1%;
+}
+
+/* Main Page Containers*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  min-height: 93vh;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, .9);
+  border-radius: 10px;
+  border: 1px solid #500e13;
+  margin-bottom: 1vh;
+}
+
+.container>h1 {
+  margin-bottom: 3%;
+}
+
+.container>p {
+  margin-bottom: 3%;
+}
+
+.container>ul>li {
+  margin-bottom: 3%;
+}
+
+/* List */
+
+.list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-header{
+  width: 100%;
+  border-bottom: #2e2e2e solid 3px;
+}
+
+.list-header >h1{
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+}
+
+/* Form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  border-radius: 15px;
+  padding: 2%;
+  border: #2e2e2e solid 1px;
+}
+
+form>input {
+  width: 80%;
+  margin-bottom: 2%;
+  padding: 1%;
+  border-radius: 5px;
+  border: #2e2e2e solid 1px;
+}
